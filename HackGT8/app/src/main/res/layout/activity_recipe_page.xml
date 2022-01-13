@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCDC6"
+    android:keepScreenOn="false"
+    tools:context=".RecipePage">
+
+    <ImageView
+        android:id="@+id/foodPicture"
+        android:layout_width="170dp"
+        android:layout_height="155dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#ACADA8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/link4"
+        android:layout_width="356dp"
+        android:layout_height="58dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="https://www.pillsbury.com/recipes/perfect-apple-pie/1fc2b60f-0a4f-441e-ad93-8bbd00fe5334"
+        android:autoLink = "web"
+        android:textColor="#746D69"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foodTitle"
+        app:layout_constraintVertical_bias="0.744" />
+
+    <TextView
+        android:id="@+id/link3"
+        android:layout_width="356dp"
+        android:layout_height="58dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="https://www.pillsbury.com/recipes/perfect-apple-pie/1fc2b60f-0a4f-441e-ad93-8bbd00fe5334"
+        android:autoLink = "web"
+        android:textColor="#746D69"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foodTitle"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <TextView
+        android:id="@+id/link2"
+        android:layout_width="356dp"
+        android:layout_height="58dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="https://www.pillsbury.com/recipes/perfect-apple-pie/1fc2b60f-0a4f-441e-ad93-8bbd00fe5334"
+        android:autoLink = "web"
+        android:textColor="#746D69"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foodTitle" />
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="356dp"
+        android:layout_height="58dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="https://www.pillsbury.com/recipes/perfect-apple-pie/1fc2b60f-0a4f-441e-ad93-8bbd00fe5334"
+        android:autoLink = "web"
+        android:textColor="#746D69"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foodTitle"
+        app:layout_constraintVertical_bias="0.381" />
+
+    <TextView
+        android:id="@+id/foodTitle"
+        android:layout_width="351dp"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TextView"
+        android:textColor="#746D69"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/foodPicture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cookingbutton"
+        android:layout_width="175dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#4E4641"
+        android:backgroundTintMode="src_over"
+        android:text="I cooked this!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foodTitle"
+        app:layout_constraintVertical_bias="0.893" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
